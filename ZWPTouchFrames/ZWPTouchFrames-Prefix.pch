@@ -1,0 +1,4 @@
+#ifdef __OBJC__
+#import <Availability.h>
+#import <ZWPTouchFrames/ZWPTouchFrames.h>
+#endif

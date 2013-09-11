@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE087AFF1456273B00966537 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE6E6D6143128F5001AAA59 /* UIKit.framework */; };
+		EE1E74E4170385A200435137 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE1E74DC1703858A00435137 /* SenTestingKit.framework */; };
+		EE1E74E5170385A200435137 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE6E6D6143128F5001AAA59 /* UIKit.framework */; };
+		EE1E74E6170385A200435137 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE53E2E715AD3724002CC24B /* Foundation.framework */; };
+		EE1E74F41703878E00435137 /* libZWPTouchFrames.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE087AD0145626EB00966537 /* libZWPTouchFrames.a */; };
+		EEB9F20917E098A3008E22EB /* UIView+ZWPTouchFrames.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB9F20517E098A3008E22EB /* UIView+ZWPTouchFrames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB9F20A17E098A3008E22EB /* UIView+ZWPTouchFrames.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9F20617E098A3008E22EB /* UIView+ZWPTouchFrames.m */; };
+		EEB9F20C17E098A3008E22EB /* ZWPTouchFrames.h in Headers */ = {isa = PBXBuildFile; fileRef = EEB9F20817E098A3008E22EB /* ZWPTouchFrames.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEB9F21117E098AA008E22EB /* ZWPTouchFramesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEB9F21017E098AA008E22EB /* ZWPTouchFramesTests.m */; };
+		EEB9F21317E098E5008E22EB /* ZWPTouchFramesTests-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EEB9F21217E098E5008E22EB /* ZWPTouchFramesTests-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE087AD0145626EB00966537 /* libZWPTouchFrames.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libZWPTouchFrames.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1E74DC1703858A00435137 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		EE1E74E3170385A200435137 /* ZWPTouchFramesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZWPTouchFramesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE53E2E715AD3724002CC24B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EEB9F20517E098A3008E22EB /* UIView+ZWPTouchFrames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZWPTouchFrames.h"; sourceTree = "<group>"; };
+		EEB9F20617E098A3008E22EB /* UIView+ZWPTouchFrames.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZWPTouchFrames.m"; sourceTree = "<group>"; };
+		EEB9F20717E098A3008E22EB /* ZWPTouchFrames-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZWPTouchFrames-Prefix.pch"; sourceTree = "<group>"; };
+		EEB9F20817E098A3008E22EB /* ZWPTouchFrames.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPTouchFrames.h; sourceTree = "<group>"; };
+		EEB9F20E17E098AA008E22EB /* ZWPTouchFramesTests-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ZWPTouchFramesTests-Prefix.pch"; sourceTree = "<group>"; };
+		EEB9F20F17E098AA008E22EB /* ZWPTouchFramesTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWPTouchFramesTests.h; sourceTree = "<group>"; };
+		EEB9F21017E098AA008E22EB /* ZWPTouchFramesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWPTouchFramesTests.m; sourceTree = "<group>"; };
+		EEB9F21217E098E5008E22EB /* ZWPTouchFramesTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ZWPTouchFramesTests-Info.plist"; sourceTree = "<group>"; };
+		EEE6E6D6143128F5001AAA59 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE087ACD145626EB00966537 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE087AFF1456273B00966537 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1E74DF170385A200435137 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE1E74F41703878E00435137 /* libZWPTouchFrames.a in Frameworks */,
+				EE1E74E4170385A200435137 /* SenTestingKit.framework in Frameworks */,
+				EE1E74E5170385A200435137 /* UIKit.framework in Frameworks */,
+				EE1E74E6170385A200435137 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE0D261C13D645E600947556 = {
+			isa = PBXGroup;
+			children = (
+				EEB9F20417E098A3008E22EB /* ZWPTouchFrames */,
+				EEB9F20D17E098AA008E22EB /* ZWPTouchFramesTests */,
+				EE0D262913D645E600947556 /* Frameworks */,
+				EE0D262813D645E600947556 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE0D262813D645E600947556 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE087AD0145626EB00966537 /* libZWPTouchFrames.a */,
+				EE1E74E3170385A200435137 /* ZWPTouchFramesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE0D262913D645E600947556 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE1E74DC1703858A00435137 /* SenTestingKit.framework */,
+				EEE6E6D6143128F5001AAA59 /* UIKit.framework */,
+				EE53E2E715AD3724002CC24B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEB9F20417E098A3008E22EB /* ZWPTouchFrames */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9F20717E098A3008E22EB /* ZWPTouchFrames-Prefix.pch */,
+				EEB9F20817E098A3008E22EB /* ZWPTouchFrames.h */,
+				EEB9F20517E098A3008E22EB /* UIView+ZWPTouchFrames.h */,
+				EEB9F20617E098A3008E22EB /* UIView+ZWPTouchFrames.m */,
+			);
+			path = ZWPTouchFrames;
+			sourceTree = "<group>";
+		};
+		EEB9F20D17E098AA008E22EB /* ZWPTouchFramesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEB9F21217E098E5008E22EB /* ZWPTouchFramesTests-Info.plist */,
+				EEB9F20E17E098AA008E22EB /* ZWPTouchFramesTests-Prefix.pch */,
+				EEB9F20F17E098AA008E22EB /* ZWPTouchFramesTests.h */,
+				EEB9F21017E098AA008E22EB /* ZWPTouchFramesTests.m */,
+			);
+			path = ZWPTouchFramesTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EE087ACE145626EB00966537 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9F20C17E098A3008E22EB /* ZWPTouchFrames.h in Headers */,
+				EEB9F20917E098A3008E22EB /* UIView+ZWPTouchFrames.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EE087ACF145626EB00966537 /* ZWPTouchFrames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE087AD8145626EB00966537 /* Build configuration list for PBXNativeTarget "ZWPTouchFrames" */;
+			buildPhases = (
+				EE087ACC145626EB00966537 /* Sources */,
+				EE087ACD145626EB00966537 /* Frameworks */,
+				EE087ACE145626EB00966537 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWPTouchFrames;
+			productName = ZWPTouchFrames;
+			productReference = EE087AD0145626EB00966537 /* libZWPTouchFrames.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE1E74E2170385A200435137 /* ZWPTouchFramesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE1E74F1170385A300435137 /* Build configuration list for PBXNativeTarget "ZWPTouchFramesTests" */;
+			buildPhases = (
+				EE1E74DE170385A200435137 /* Sources */,
+				EE1E74DF170385A200435137 /* Frameworks */,
+				EE1E74E0170385A200435137 /* Resources */,
+				EE1E74E1170385A200435137 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZWPTouchFramesTests;
+			productName = ZWPTouchFramesTests;
+			productReference = EE1E74E3170385A200435137 /* ZWPTouchFramesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE0D261E13D645E600947556 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = EE0D262113D645E600947556 /* Build configuration list for PBXProject "ZWPTouchFrames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE0D261C13D645E600947556;
+			productRefGroup = EE0D262813D645E600947556 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE087ACF145626EB00966537 /* ZWPTouchFrames */,
+				EE1E74E2170385A200435137 /* ZWPTouchFramesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE1E74E0170385A200435137 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9F21317E098E5008E22EB /* ZWPTouchFramesTests-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EE1E74E1170385A200435137 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE087ACC145626EB00966537 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9F20A17E098A3008E22EB /* UIView+ZWPTouchFrames.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE1E74DE170385A200435137 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEB9F21117E098AA008E22EB /* ZWPTouchFramesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE087AD9145626EB00966537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRIVATE_HEADERS_FOLDER_PATH = ./include/ZWPTouchFrames/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = ./include/ZWPTouchFrames/;
+			};
+			name = Debug;
+		};
+		EE087ADA145626EB00966537 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRIVATE_HEADERS_FOLDER_PATH = ./include/ZWPTouchFrames/;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = ./include/ZWPTouchFrames/;
+			};
+			name = Release;
+		};
+		EE0D263213D645E600947556 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZWPTouchFrames/ZWPTouchFrames-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=0",
+					"DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE0D263313D645E600947556 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZWPTouchFrames/ZWPTouchFrames-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"RELEASE=1",
+					"DEBUG=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-ObjC";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE1E74F2170385A300435137 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZWPTouchFramesTests/ZWPTouchFramesTests-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ZWPTouchFramesTests/ZWPTouchFramesTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		EE1E74F3170385A300435137 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ZWPTouchFramesTests/ZWPTouchFramesTests-Prefix.pch";
+				INFOPLIST_FILE = "ZWPTouchFramesTests/ZWPTouchFramesTests-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE087AD8145626EB00966537 /* Build configuration list for PBXNativeTarget "ZWPTouchFrames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE087AD9145626EB00966537 /* Debug */,
+				EE087ADA145626EB00966537 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE0D262113D645E600947556 /* Build configuration list for PBXProject "ZWPTouchFrames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE0D263213D645E600947556 /* Debug */,
+				EE0D263313D645E600947556 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE1E74F1170385A300435137 /* Build configuration list for PBXNativeTarget "ZWPTouchFramesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE1E74F2170385A300435137 /* Debug */,
+				EE1E74F3170385A300435137 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE0D261E13D645E600947556 /* Project object */;
+}
