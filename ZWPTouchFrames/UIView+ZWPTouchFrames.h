@@ -13,6 +13,7 @@
 
 #pragma mark - Frame Dimensions
 
+@property (nonatomic, assign) CGSize frameSize;
 @property (nonatomic, assign) CGFloat frameWidth;
 @property (nonatomic, assign) CGFloat frameHeight;
 
@@ -63,6 +64,7 @@
 
 #pragma mark - Bounds Dimensions
 
+@property (nonatomic, assign, readonly) CGSize boundsSize;
 @property (nonatomic, assign, readonly) CGFloat boundsWidth;
 @property (nonatomic, assign, readonly) CGFloat boundsHeight;
 

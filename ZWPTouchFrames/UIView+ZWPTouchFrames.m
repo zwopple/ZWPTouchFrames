@@ -72,6 +72,16 @@
 
 #pragma mark - Dimensions
 
+- (CGSize)frameSize {
+    return self.frame.size;
+}
+
+- (void)setFrameSize:(CGSize)frameSize {
+    CGRect r = self.frame;
+    r.size = frameSize;
+    self.frame = r;
+}
+
 - (CGFloat)frameWidth {
 	CGRect r = self.frame;
 	return r.size.width;
@@ -357,6 +367,10 @@
 }
 
 #pragma mark - Bounds Dimensions
+
+- (CGSize)boundsSize {
+    return self.bounds.size;
+}
 
 - (CGFloat)boundsWidth {
 	CGRect r = self.bounds;

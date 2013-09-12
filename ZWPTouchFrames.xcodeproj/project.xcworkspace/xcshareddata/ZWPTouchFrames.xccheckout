@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>623392BB-CC34-444E-88BF-6AE0347522A5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZWPTouchFrames</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3931DACB-8B65-4A41-8348-446FE99877B5</key>
+		<string>ssh://github.com/zwopple/ZWPTouchFrames.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZWPTouchFrames.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3931DACB-8B65-4A41-8348-446FE99877B5</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/zwopple/ZWPTouchFrames.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3931DACB-8B65-4A41-8348-446FE99877B5</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3931DACB-8B65-4A41-8348-446FE99877B5</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZWPTouchFrames</string>
+		</dict>
+	</array>
+</dict>
+</plist>

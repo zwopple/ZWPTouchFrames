@@ -58,6 +58,8 @@
 - (void)testFrameDimensions {
 	UIView *view = [[UIView alloc] initWithFrame:CGRectMake(50.0, 50.0, 100.0, 100.0)];
 	
+    STAssertEquals(view.frameSize.width, (CGFloat)100.0, nil);
+    STAssertEquals(view.frameSize.height, (CGFloat)100.0, nil);
 	STAssertEquals(view.frameWidth, (CGFloat)100.0, nil);
 	STAssertEquals(view.frameHeight, (CGFloat)100.0, nil);
 	
@@ -163,6 +165,8 @@
 - (void)testBoundsDimensions {
 	UIView *view = [[UIView alloc] initWithFrame:CGRectMake(50.0, 50.0, 100.0, 100.0)];
 	
+    STAssertEquals(view.boundsSize.width, (CGFloat)100.0, nil);
+	STAssertEquals(view.boundsSize.height, (CGFloat)100.0, nil);
 	STAssertEquals(view.boundsWidth, (CGFloat)100.0, nil);
 	STAssertEquals(view.boundsHeight, (CGFloat)100.0, nil);
 }

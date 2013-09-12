@@ -32,6 +32,7 @@ These are the following properties added for frame manipulation
 * `@property (nonatomic, assign) CGFloat frameMinY;`
 * `@property (nonatomic, assign) CGFloat frameMidY;`
 * `@property (nonatomic, assign) CGFloat frameMaxY;`
+* `@property (nonatomic, assign) CGSize frameSize;`
 * `@property (nonatomic, assign) CGFloat frameWidth;`
 * `@property (nonatomic, assign) CGFloat frameHeight;`
 * `@property (nonatomic, assign) CGPoint frameTopLeft;`
@@ -86,6 +87,7 @@ Dealing with the bounds is less annoying but sometimes some quick helpers make c
 * `@property (nonatomic, assign, readonly) CGFloat boundsMinY;`
 * `@property (nonatomic, assign, readonly) CGFloat boundsMidY;`
 * `@property (nonatomic, assign, readonly) CGFloat boundsMaxY;`
+* `@property (nonatomic, assign, readonly) CGSize boundsSize;`
 * `@property (nonatomic, assign, readonly) CGFloat boundsWidth;`
 * `@property (nonatomic, assign, readonly) CGFloat boundsHeight;`
 * `@property (nonatomic, assign, readonly) CGPoint boundsTopLeft;`
@@ -102,7 +104,7 @@ Dealing with the bounds is less annoying but sometimes some quick helpers make c
 
 Cocoapods available simply just add this to your Podfile!
 
-`pod "ZWPTouchFrames", :git => "https://github.com/zwopple/ZWPTouchFrames.git"`
+`pod "ZWPTouchFrames"`
 
 ### Fully Tested
 
