@@ -102,7 +102,7 @@ Dealing with the bounds is less annoying but sometimes some quick helpers make c
 
 ### Usage
 
-Cocoapods available simply just add this to your Podfile!
+CocoaPods available simply just add this to your Podfile!
 
 `pod "ZWPTouchFrames"`
 
